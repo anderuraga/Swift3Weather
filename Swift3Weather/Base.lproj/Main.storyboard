@@ -17,7 +17,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud_sm" translatesAutoresizingMaskIntoConstraints="NO" id="bes-lI-XTg"/>
@@ -50,13 +50,13 @@
                             <constraint firstItem="FR4-9j-S1g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="2S5-9W-egK"/>
                             <constraint firstAttribute="trailing" secondItem="FR4-9j-S1g" secondAttribute="trailing" constant="-20" id="2yP-i3-ykr"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FR4-9j-S1g" secondAttribute="bottom" id="6oZ-40-Vtc"/>
-                            <constraint firstItem="FR4-9j-S1g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Kr6-Mj-XJK"/>
+                            <constraint firstItem="FR4-9j-S1g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IWz-WI-rru"/>
                             <constraint firstItem="bes-lI-XTg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NXQ-Wu-nDx"/>
                             <constraint firstItem="bes-lI-XTg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UsV-eO-kqa"/>
                             <constraint firstItem="bes-lI-XTg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="mLw-aE-oxd"/>
-                            <constraint firstItem="bes-lI-XTg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="nnf-sk-huk"/>
-                            <constraint firstItem="bes-lI-XTg" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="phe-mu-Pp7"/>
-                            <constraint firstItem="FR4-9j-S1g" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="tx0-3L-lDG"/>
+                            <constraint firstItem="bes-lI-XTg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="nnf-sk-huk"/>
+                            <constraint firstItem="bes-lI-XTg" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="phe-mu-Pp7"/>
+                            <constraint firstItem="FR4-9j-S1g" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="tx0-3L-lDG"/>
                             <constraint firstItem="bes-lI-XTg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="vTG-p5-y8A"/>
                             <constraint firstItem="FR4-9j-S1g" firstAttribute="top" secondItem="bes-lI-XTg" secondAttribute="bottom" constant="20" id="wHa-a3-vmV">
                                 <variation key="heightClass=compact-widthClass=compact" constant="0.0"/>
@@ -67,6 +67,7 @@
                                 <exclude reference="UsV-eO-kqa"/>
                                 <exclude reference="mLw-aE-oxd"/>
                                 <exclude reference="vTG-p5-y8A"/>
+                                <exclude reference="IWz-WI-rru"/>
                                 <exclude reference="tx0-3L-lDG"/>
                             </mask>
                         </variation>
@@ -79,6 +80,7 @@
                                 <exclude reference="phe-mu-Pp7"/>
                                 <include reference="vTG-p5-y8A"/>
                                 <exclude reference="2S5-9W-egK"/>
+                                <include reference="IWz-WI-rru"/>
                                 <include reference="tx0-3L-lDG"/>
                                 <exclude reference="wHa-a3-vmV"/>
                             </mask>
