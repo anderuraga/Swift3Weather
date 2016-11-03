@@ -60,7 +60,14 @@ class ViewController: UIViewController {
                             
                             if let main = json["main"] as? [String: Any] {
                                 if let temp = main["temp"] as? Float {
-                                    self.temperature.text = String(temp)
+                                    
+                                    /* Para refrescar las vistas hay que usar un tarea asincrona*/
+                                    DispatchQueue.main.async {
+                                            self.temperature.text = String(temp)
+                                    }
+                                    /* refrescar vista */
+                                    
+                                    
                                 }
                             }
                             
