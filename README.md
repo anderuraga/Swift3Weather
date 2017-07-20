@@ -9,4 +9,4 @@ Además de conectarnos a un servicio web tipo restfull para el tiempo openWeathe
 
 
 Recuerda que si usamos un protocolo no seguro de HTTP(S), debemos configurar una propiedad del proyecto: <b>NSAllowsArbitraryLoads key to YES under NSAppTransportSecurity</b>
-![Alt text](https://github.com/anderuraga/Swift3Weather/blob/master/resources/Screen%20Shot%20http%20policy.png)
+![Alt text](https://github.com/anderuraga/Swift3Weather/blob/master/resources/Screen%20Shot%20%20http%20policy.png)
